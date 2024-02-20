@@ -1,0 +1,78 @@
+.btn1:hover {
+    color: aquamarine;
+    /* transform: scale(1.04); */
+}
+
+.btn1{
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    border: 35px;
+    padding: 25px 20px 15px 20px;
+    font-size: 25px;
+    color: white;
+    width: 70px;
+    height: 70px;
+
+}
+
+.btn1:disabled{
+    color: red;
+}
+
+.btn3{
+    margin-top: 37%; 
+}
+
+.btn2{
+   margin-top: 2%;
+}
+
+#palabraClave{
+    color: black;
+    width: 550px;
+    height: 60px;
+    margin-top: 0.5%;
+    font-size: 20px;
+ }
+ 
+span{
+    vertical-align: bottom;
+    font-size: 2em;
+    display: inline-block;
+    width: 30px;
+    margin-right: 6px;
+    border-bottom: 2px solid black;
+    color: black;
+    margin-right: 15px;
+}
+
+#canvas{
+    margin-top: 0.01%;
+    margin-bottom: 20px;
+}
+
+#color{
+    background: #e65c00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F9D423, #e65c00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F9D423, #e65c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
+
+#buscaPalabra{
+    border-radius: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+    color: aliceblue;
+    background-color: black;
+}
+
+#buscaPalabra:disabled{
+    color: red;
+}
+
+/* @media(max-width:320px){
+    section{
+        width: 390px;
+        height: 844px;
+    }
+} */
